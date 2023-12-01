@@ -30,7 +30,7 @@ specify interface for openElb masters nic IP
 kubectl annotate nodes <master NAME> layer2.openelb.kubesphere.io/v1alpha1="<master nic IP>"
 ```
 
-create eip object and specift IP range
+create eip object and specift IP range, for example 192.168.0.x network
 
 ```
 apiVersion: network.kubesphere.io/v1alpha2
